@@ -1,4 +1,4 @@
-[About Me!](https://pawelczopowik.github.io/aboutme.md)
+[About Me!](https://pawelczopowik.github.io/aboutme)
 
 ## Welcome to GitHub Pages
 
