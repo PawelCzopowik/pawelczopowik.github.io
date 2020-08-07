@@ -10,30 +10,30 @@ General concept is cucumbers with sourcream. Building on that we have salt and w
 
 I found that using lemon juice and a bit of garlic emulates the taste of vinegar and results in a rich sour flavor, an alternative to those health conscious about consuming white vinegar. I do something in the middle, 1/2 vinegar and 1/2 lemon plus garlic.
 
-The sourcream will become more runny as it mixes with the water the cucumbers release. Adjust how much water you keep to your liking, i prefer mine to be a little runny.
+The sourcream will become more runny as it mixes with the water the cucumbers release. Adjust how much water you keep to your liking, i prefer mine to be a little runny. For thickest sauce, squeeze the cucumbers by hand then rest them to drain (use the coarse salt as an agent to draw out moisture).
 
-I prefer waiting for the salt and cucumbers to react where the slices get somewhat limp yet still crunchy, but some like to serve the cucumbers right away for the crunchiest slices.
+I prefer waiting for the salt and cucumbers to react (no squeezing) where the slices get somewhat limp yet still crunchy, but some like to serve the cucumbers right away for the crunchiest slices.
 
 I think its best if the salad gets time to blend flavors, so either rest as you're making or rest after making for about an hour.
 
 # Ingredients
-1. 3 cucumbers (roughly 850/750g unpeeled/peeled)
-1. 8g kosher salt
-1. 150g sour cream
-1. ~30g white onion, finely chopped
-1. ~3g minced garlic (half a tooth?)
-1. 1 tbsp or 15ml lemon juice (about 1/2 lemon)
-1. 1 tbsp 15 15ml white vinegar 5%
+1. 3 cucumbers (roughly 850 g/750 g unpeeled/peeled)
+1. 8 g kosher salt
+1. 150 g sour cream
+1. ~30 g white onion, finely chopped
+1. ~3 g minced garlic (half a tooth?)
+1. 1 tbsp or 15 ml lemon juice (about 1/2 lemon)
+1. 1 tbsp 15 15 ml white vinegar 5%
 1. Fresh pepper
 
 # Process
-Time: (30-60m) can be eaten right away, but its best when ingredients sit around a while, gets better the next day.
+Time: (30-60 m) can be eaten right away, but its best when ingredients sit around a while, gets better the next day.
 We slice the cucumbers and let sit with salt. Dressing is made separately and rests too.
 No exceptional cases.
 
 ### Dressing
 1. Mix sourcream, garlic, vinegar, lemon juice
-1. Let stand for 30-60m, this is necessary for the garlic to develop flavor in the cream.
+1. Let stand for 30-60 m, this is necessary for the garlic to develop flavor in the cream.
 
 ### Cucumbers
 1. Slice cucumbers (peeling is up to your preference)
