@@ -27,11 +27,11 @@ Time: (30-60m) can be eaten right away, but its best when ingredients sit around
 We slice the cucumbers and let sit with salt. Dressing is made separately and rests too.
 No exceptional cases.
 
-## Dressing
+### Dressing
 1. Mix sourcream, garlic, vinegar, lemon juice
 1. Let stand for 30-60m, this is necessary for the garlic to develop flavor in the cream.
 
-## Cucumbers
+### Cucumbers
 1. Slice cucumbers (peeling is up to your preference)
 1. Add salt and mix thoroughly by hand with cucumbers.
 1. If you want fresh and crunchy slices, don't wait, skip to mixing in the dressing, otherwise
