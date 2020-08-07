@@ -1,1 +1,1 @@
-[Recipes](https://pawelczopowik.github.io/recipes/recipes.md)
+[Recipes](https://pawelczopowik.github.io/recipes)
