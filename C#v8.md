@@ -70,8 +70,11 @@ foreach (string drive in Environment.GetLogicalDrives())
 ## Formatting console output
 ```Console.WriteLine("{1}, {0}, {2}", 10, 20, 30);
 Console.WriteLine("The value 99999 in various formats:");
-Console.WriteLine("c format: {0:c}", 99999);
-Console.WriteLine("d9 format: {0:d9}", 99999);
-Console.WriteLine("f3 format: {0:f3}", 99999);
-Console.WriteLine("n format: {0:n}", 99999);
+Console.WriteLine("c format: {0:c}", 99999); c format: $99,999.00
+Console.WriteLine("d9 format: {0:d9}", 99999); d9 format: 000099999
+Console.WriteLine("f3 format: {0:f3}", 99999); f3 format: 99999.000
+Console.WriteLine("n format: {0:n}", 99999); n format: 99,999.00
+
 ```
+
+
