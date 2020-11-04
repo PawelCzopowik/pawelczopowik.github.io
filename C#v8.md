@@ -25,3 +25,16 @@
 - CTS Type Members
 - Intrinsic CTS Data Types
   - System.UInt64, System.String, System.Boolean
+
+Visual Class Designer
+
+# PART II Core C# Programming
+# CHAPTER 3 Core C# Programming Constructs, Part 1
+
+```
+class Program
+{
+  static void Main(string[] args)
+  {}
+}
+```
