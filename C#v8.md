@@ -36,5 +36,18 @@ class Program
 {
   static void Main(string[] args)
   {}
-}
+  
+  // Get arguments using System.Environment.
+string[] theArgs = Environment.GetCommandLineArgs();
+
+// Helper method within the Program class.
+ShowEnvironmentDetails();
+// Print out the drives on this machine,
+// and other interesting details.
+foreach (string drive in Environment.GetLogicalDrives())
+  {
+    //drive;
+    Environment.OSVersion
+    Environment.ProcessorCount)
+  }
 ```
