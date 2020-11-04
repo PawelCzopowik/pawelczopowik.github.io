@@ -40,7 +40,7 @@ class Program
   // Get arguments using System.Environment.
 string[] theArgs = Environment.GetCommandLineArgs();
 ```
-## Environment Class
+## System.Environment Class
 ```
 // Helper method within the Program class.
 ShowEnvironmentDetails();
@@ -52,5 +52,17 @@ foreach (string drive in Environment.GetLogicalDrives())
     drive;
     Environment.OSVersion
     Environment.ProcessorCount
+    
   }
 ```
+## System.Console Class
+- Beep() 
+- BackgroundColor
+- ForegroundColo
+- BufferHeightBufferWidth
+- Title
+- WindowHeight
+- WindowWidth
+- WindowTop
+- WindowLeft
+- Clear()
