@@ -2,7 +2,7 @@
 
 ### Description lists:
 
-```
+```HTML
 <dl>
   <dt>soliloquy</dt>
   <dd>In drama, where a ...</dd>
@@ -12,7 +12,7 @@
 ```
 
 ### Blockquote
-```
+```HTML
 <p>Here below is a blockquote...</p>
 <blockquote cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
   <p>The <strong>HTML <code>&lt;blockquote&gt;</code> Element</strong> (or <em>HTML Block
@@ -20,13 +20,13 @@
 </blockquote>
 ```
 ### Inline quote
-```
+```HTML
 <p>The quote element — <code>&lt;q&gt;</code> — is <q cite="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/q">intended
 for short quotations that don't require paragraph breaks.</q></p>
 ```
 
 ### Citations
-```
+```HTML
 <p>According to the <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote">
 <cite>MDN blockquote page</cite></a>:
 </p>
@@ -42,13 +42,13 @@ for short quotations that don't require paragraph breaks.</q> -- <a href="https:
 ```
 
 ### Abbreviation
-```
+```HTML
 <p>We use <abbr title="Hypertext Markup Language">HTML</abbr> to structure our web documents.</p>
 <p>I think <abbr title="Reverend">Rev.</abbr> Green did it in the kitchen with the chainsaw.</p>
 ```
 
 ### Address, can be anything
-```
+```HTML
 <address>
   <p>Chris Mills, Manchester, The Grim North, UK</p>
 </address>
@@ -62,7 +62,7 @@ for short quotations that don't require paragraph breaks.</q> -- <a href="https:
 - samp: For marking up the output of a computer program.
 
 
-```
+```HTML
 <pre><code>var para = document.querySelector('p');
 
 para.onclick = function() {
