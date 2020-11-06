@@ -1,5 +1,13 @@
 # HTML notes
 
+## Website
+What structure should your website have?
+- index.html
+- images folder
+- styles folder
+- scripts folder
+
+
 ## Attributes
 ### Description lists:
 
