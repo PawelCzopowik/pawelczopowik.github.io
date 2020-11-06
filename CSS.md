@@ -2,7 +2,7 @@
 
 ## Selectors
 - Element: `p`
-- ID: `#my-id`selects `<p id="myid">`
+- ID: `#my-id` selects `<p id="myid">`
 - Class: `.my-class`
 - Attribute: `img[src]` selects `<img src=..>` not `<img>`
 - Pseudo-class: `a:hover`
@@ -17,3 +17,6 @@
 - `color`, the color of an element's content (usually text).
 - `text-shadow` sets a drop shadow on the text inside an element.
 - `display sets` the display mode of an element. (keep reading to learn more)
+
+
+- `text-shadow`
