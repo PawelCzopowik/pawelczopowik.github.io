@@ -90,6 +90,30 @@ int.Maxvalue
 bool.FalseString
 char.IsDigit, IsLetter, IsWhitespace...
 int.Parse("8"), Char.Parse("w")... 
+
+// Time and Date
+
+DateTime dt = new DateTime(2015, 10, 17);
+Console.WriteLine("The day of {0} is {1}", dt.Date, dt.DayOfWeek);
+dt = dt.AddMonths(2);
+Console.WriteLine("Daylight savings: {0}", dt.IsDaylightSavingTime());
+// This constructor takes (hours, minutes, seconds).
+TimeSpan ts = new TimeSpan(4, 30, 0);
+Console.WriteLine(ts.Subtract(new TimeSpan(0, 15, 0))); // - 15 min
+
+// Digit separators
+Console.WriteLine(123_456.1234F); //float
+Console.WriteLine(0x_00_00_FF); //hex
+Console.WriteLine("Sixteen: {0}",0b_0001_0000); //binary
+
+string s3 = s1 + s2;
+// Insterpolation
+// Using curly-bracket syntax.
+string greeting = string.Format("Hello {0} you are {1} years old.", name, age);
+// Using string interpolation
+string greeting2 = $"Hello {name} you are {age} years old.";
+
+
 ```
 ## TryParse
 ```c#
