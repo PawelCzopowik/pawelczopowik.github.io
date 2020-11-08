@@ -77,4 +77,26 @@ Console.WriteLine("n format: {0:n}", 99999); n format: 99,999.00
 
 ```
 
+## Default Literal (7.1)
+`int myInt = default;`
 
+__Intrinsic datatype__ has a defaul constructor.
+
+## Handy system.__ class members
+```
+int.Maxvalue
+bool.FalseString
+char.IsDigit, IsLetter, IsWhitespace...
+int.Parse("8"), Char.Parse("w")... 
+```
+## TryParse
+```
+static void ParseFromStringsWithTryParse()
+{
+  Console.WriteLine("=> Data type parsing with TryParse:");
+  if (bool.TryParse("True", out bool b))
+    {
+    Console.WriteLine("Value of b: {0}", b);
+    }
+}
+```
