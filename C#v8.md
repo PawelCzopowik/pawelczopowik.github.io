@@ -106,6 +106,9 @@ Console.WriteLine(123_456.1234F); //float
 Console.WriteLine(0x_00_00_FF); //hex
 Console.WriteLine("Sixteen: {0}",0b_0001_0000); //binary
 
+
+//// STRINGS! They're immutable
+
 string s3 = s1 + s2;
 
 // Insterpolation
@@ -123,6 +126,9 @@ Console.WriteLine(@"Cerebus said ""Darrr! Pret-ty sun-sets"""); // use double ""
 string myLongString2 = $@"This is a very
 very
 long string with {interp}";
+
+
+//// System.Text.StringBuilder for larger text types? Mutable!? (efficient)
 ```
 ## TryParse
 ```c#
