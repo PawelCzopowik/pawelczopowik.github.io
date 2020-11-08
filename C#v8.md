@@ -107,13 +107,22 @@ Console.WriteLine(0x_00_00_FF); //hex
 Console.WriteLine("Sixteen: {0}",0b_0001_0000); //binary
 
 string s3 = s1 + s2;
+
 // Insterpolation
 // Using curly-bracket syntax.
 string greeting = string.Format("Hello {0} you are {1} years old.", name, age);
 // Using string interpolation
-string greeting2 = $"Hello {name} you are {age} years old.";
+string greeting2 = $"Hello {name.ToUpper()} you are {age} years old.";
 
+// The following string is printed verbatim,
+// thus all escape characters are displayed.
+Console.WriteLine(@"C:\MyApp\bin\Debug");
+Console.WriteLine(@"Cerebus said ""Darrr! Pret-ty sun-sets"""); // use double "" for internal "
 
+// Interpolated AND verbatim:
+string myLongString2 = $@"This is a very
+very
+long string with {interp}";
 ```
 ## TryParse
 ```c#
