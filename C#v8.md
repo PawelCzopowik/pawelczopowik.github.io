@@ -31,7 +31,7 @@ Visual Class Designer
 # PART II Core C# Programming
 # CHAPTER 3 Core C# Programming Constructs, Part 1
 
-```
+```c#
 class Program
 {
   static void Main(string[] args)
@@ -41,7 +41,7 @@ class Program
 string[] theArgs = Environment.GetCommandLineArgs();
 ```
 ## System.Environment Class
-```
+```c#
 // Helper method within the Program class.
 ShowEnvironmentDetails();
 // Print out the drives on this machine,
@@ -68,7 +68,8 @@ foreach (string drive in Environment.GetLogicalDrives())
 - Clear()
 
 ## Formatting console output
-```Console.WriteLine("{1}, {0}, {2}", 10, 20, 30);
+```c#
+Console.WriteLine("{1}, {0}, {2}", 10, 20, 30);
 Console.WriteLine("The value 99999 in various formats:");
 Console.WriteLine("c format: {0:c}", 99999); c format: $99,999.00
 Console.WriteLine("d9 format: {0:d9}", 99999); d9 format: 000099999
@@ -78,19 +79,20 @@ Console.WriteLine("n format: {0:n}", 99999); n format: 99,999.00
 ```
 
 ## Default Literal (7.1)
-`int myInt = default;`
-
+```c#
+int myInt = default;
+```
 __Intrinsic datatype__ has a defaul constructor.
 
 ## Handy system.__ class members
-```
+```c#
 int.Maxvalue
 bool.FalseString
 char.IsDigit, IsLetter, IsWhitespace...
 int.Parse("8"), Char.Parse("w")... 
 ```
 ## TryParse
-```
+```c#
 static void ParseFromStringsWithTryParse()
 {
   Console.WriteLine("=> Data type parsing with TryParse:");
