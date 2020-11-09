@@ -129,6 +129,28 @@ long string with {interp}";
 
 
 //// System.Text.StringBuilder for larger text types? Mutable!? (efficient)
+StringBuilder sb = new StringBuilder("**** Fantastic Games ****");
+sb.Append("\n");
+sb.AppendLine("Half Life");
+Console.WriteLine(sb.ToString());
+sb.Replace("2", " Invisible War");
+
+//// Overflow protection (possible to enable on project, throw exc on overflow)
+```
+try
+{
+  checked
+  {
+    byte sum = (byte)Add(b1, b2);
+    Console.WriteLine("sum = {0}", sum);
+  }
+}
+catch (OverflowException ex)
+{
+  Console.WriteLine(ex.Message);
+}
+```
+
 ```
 ## TryParse
 ```c#
