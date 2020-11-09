@@ -166,10 +166,61 @@ static void ParseFromStringsWithTryParse()
 - Allowed only as locals in a method or property.
 - Must be initialized. 
 - NOTE! Implicit is still strong typed! Not dynamic like JS.
-- Primary use case is LINQ! Don't litter with this
+- Primary use case is foreach loops and LINQ! Don't litter with this
 
-```
+```c#
 var int = 4;
 var myLong = 0L;
 ```
 
+
+## Pattern matching (7.0)
+
+
+```c#
+static void IfElsePatternMatching()
+{
+Console.WriteLine("===If Else Pattern Matching ===/n");
+object testItem1 = 123;
+object testItem2 = "Hello";
+if (testItem1 is string myStringValue1)
+{
+  Console.WriteLine($"{myStringValue1} is a string");
+}
+if (testItem1 is int myValue1)
+{
+  Console.WriteLine($"{myValue1} is an int");
+}
+```
+
+## Switch statement
+- Cannot fall through cases! (use `goto` to go to next)
+
+
+```
+switch (n)
+{
+  case 1:
+  Console.WriteLine("Good choice, C# is a fine language.");
+  break;
+  default:
+  break;
+}
+
+// With patter matching
+switch (choice)
+{
+  case int i:
+    ...
+    break;
+  case string s:
+    ...
+}
+
+// With `where` clause
+switch (choice)
+{
+  case int i when i == 2:
+  break;
+  case int i when i == 1:
+```
