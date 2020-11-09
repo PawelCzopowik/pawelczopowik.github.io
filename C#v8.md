@@ -136,7 +136,6 @@ Console.WriteLine(sb.ToString());
 sb.Replace("2", " Invisible War");
 
 //// Overflow protection (possible to enable on project, throw exc on overflow)
-```
 try
 {
   checked
@@ -149,8 +148,8 @@ catch (OverflowException ex)
 {
   Console.WriteLine(ex.Message);
 }
-```
 
+//unchecked to override when checking overflow is enabled.
 ```
 ## TryParse
 ```c#
@@ -163,3 +162,14 @@ static void ParseFromStringsWithTryParse()
     }
 }
 ```
+## Implicit declaration with numerics
+- Allowed only as locals in a method or property.
+- Must be initialized. 
+- NOTE! Implicit is still strong typed! Not dynamic like JS.
+- Primary use case is LINQ! Don't litter with this
+
+```
+var int = 4;
+var myLong = 0L;
+```
+
