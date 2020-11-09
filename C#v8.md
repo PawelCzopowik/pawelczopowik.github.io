@@ -223,4 +223,24 @@ switch (choice)
   case int i when i == 2:
   break;
   case int i when i == 1:
+}
+
+// Switch expressions (8.0)
+
+switch (colorBand)
+{
+  case "Red":
+  return "#FF0000";
+  case "Orange":
+  return "#FF7F00";
+  ...
+}
+
+// Becomes
+return colorBand switch
+{
+  "Red" => "#FF0000",
+  "Orange" => "#FF7F00",
+  _ => "#FFFFFF",
+ };
 ```
