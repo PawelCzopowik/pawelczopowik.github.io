@@ -197,7 +197,7 @@ if (testItem1 is int myValue1)
 - Cannot fall through cases! (use `goto` to go to next)
 
 
-```
+```c#
 switch (n)
 {
   case 1:
