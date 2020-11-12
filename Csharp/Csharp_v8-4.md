@@ -5,7 +5,7 @@
 
 ## Arrays
 
-```C#
+```c#
 int[] myInts = new int[3];
 string[] stringArray = new string[] { "one", "two", "three" };
 
@@ -41,7 +41,7 @@ Some of these are static so `Array.Sort()`
 - Sort()
 
 ### Indices and Ranges (New 8.0)
-```C#
+```c#
 Index idx = i   // i from a loop
 Index idx = ^i  // i from the end of sequence 
 
@@ -64,7 +64,7 @@ For single line methods `static int Add(int x, int y) => x + y;`
 ### Local functions (7.0) (methods within methods)
 Added to C# for custom iterator methods and asynch.. not useful
 Declare the inner function `static` to prevent changing incoming vars
-```C#
+```c#
 static int AddWrapper(int x, int y)
 {
   //Do some validation here
@@ -89,7 +89,7 @@ Without a modifier, defaults to value by value, ref by ref. Exception is string,
 Default for reference types is __by reference for its properties, but by value for itself.__
 
 #### out Modifier
-```C#
+```c#
 static void Add(int x, int y, out int ans)
 {
   ans = x + y;
