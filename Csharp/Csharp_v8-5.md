@@ -1,4 +1,5 @@
 - [Ch 4](Csharp_v8-4.md)
+- [Ch 6](Csharp_v8-6.md)
 
 # PART III Object-Oriented Programming with C#
 # CHAPTER 5 Understanding Encapsulation
@@ -254,5 +255,5 @@ partial class Employee
 }
 ```
 
-
-- [Ch 5](Csharp_v8-5.md)
+- [Ch 4](Csharp_v8-4.md)
+- [Ch 6](Csharp_v8-6.md)
