@@ -244,3 +244,6 @@ return colorBand switch
   _ => "#FFFFFF",
  };
 ```
+
+
+- [Ch 4](https://pawelczopowik.github.io/Csharp/C#v8-4.md)
