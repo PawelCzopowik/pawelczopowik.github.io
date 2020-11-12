@@ -244,6 +244,3 @@ return colorBand switch
   _ => "#FFFFFF",
  };
 ```
-
-# CHAPTER 4 Core C# Programming
-# Constructs, Part 2
