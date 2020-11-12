@@ -94,6 +94,7 @@ using static System.Console;
 ## C# Access Modifiers (Updated 7.2)
 ### The Default Access Modifiers
 - By default, type members are implicitly private, while types are implicitly internal
+
 ```c#
 class Radio
 {
