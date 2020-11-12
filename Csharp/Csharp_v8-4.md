@@ -1,4 +1,4 @@
-- [Ch 1-3](https://pawelczopowik.github.io/Csharp/C#v8.md)
+- [Ch 1-3](Csharp_v8.md)
 
 
 # CHAPTER 4 Core C# Programming Constructs, Part 2
@@ -330,4 +330,4 @@ struct Point
 tbfinished... zzzzzzz
 
 
-- [Ch 4](https://pawelczopowik.github.io/Csharp/C#v8-4.md)
+- [Ch 4](Csharp_v8-4.md)
