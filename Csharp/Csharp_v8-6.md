@@ -1,6 +1,4 @@
-- [Ch 5](Csharp_v8-5.md)
-- [Ch 7](Csharp_v8-7.md)
-
+[<< Previous Chapter](Csharp_v8-5.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-7.md)
 # CHAPTER 6 Understanding Inheritance and Polymorphism
 
 ```c#
@@ -155,6 +153,4 @@ else if (emp is var _)
   Console.WriteLine();
 }
 ```
-
-- [Ch 5](Csharp_v8-5.md)
-- [Ch 7](Csharp_v8-7.md)
+[<< Previous Chapter](Csharp_v8-5.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-7.md)
