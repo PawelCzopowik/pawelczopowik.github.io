@@ -1,3 +1,4 @@
+| -- | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-4.md)
 # C# V8 Book notes
 
 
