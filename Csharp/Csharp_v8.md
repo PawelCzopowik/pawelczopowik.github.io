@@ -1,10 +1,6 @@
 [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-4.md)
 
-# C# V8 Book notes
-
-
 # CHAPTER 1 Introducing .NET Core
-
 
 ## Blocks of the .NET Core Platform (.NET core runtine environment)
 - CoreCLR - Common Language Runtime, 
