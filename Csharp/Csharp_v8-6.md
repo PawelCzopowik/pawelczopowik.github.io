@@ -53,6 +53,7 @@ EmployeePayTypeEnum.Salaried)
 ### Understanding Member Shadowing
 - Using `new` to ignore inherited function of the same name 
 - Can be applied to any member
+
 ```c#
 // This class extends Circle and hides the inherited Draw() method.
 class ThreeDCircle : Circle
