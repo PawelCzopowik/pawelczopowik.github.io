@@ -1,6 +1,6 @@
 [<< Previous Chapter](Csharp_v8.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-5.md)
 
-# CHAPTER 4 Core C# Programming Constructs, Part 2
+# CHAPTER 4 Core C# Programming Constructs, Pt 2
 
 ## Arrays
 
