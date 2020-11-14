@@ -246,5 +246,4 @@ return colorBand switch
  };
 ```
 
-
-- [Ch 4](Csharp_v8-4.md)
+| -- | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-4.md)
