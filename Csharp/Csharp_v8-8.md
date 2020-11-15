@@ -156,13 +156,81 @@ Or hide the functionality from object, but retain its function in the background
 ```c#
 // Return the array object's IEnumerator.
 IEnumerator IEnumerable.GetEnumerator()
-=> return carArray.GetEnumerator();
+  => return carArray.GetEnumerator();
 ```
 
+### Building Iterator Methods with the yield Keyword
+
+
+```c#
+public class Garage : IEnumerable
+{
+...
+// Iterator method.
+public IEnumerator GetEnumerator()
+{
+    foreach (Car c in carArray)
+    {
+      yield return c;
+    }
+  }
+}
+
+// This would work too with yield:
+public IEnumerator GetEnumerator()
+{
+  yield return carArray[0];
+  yield return carArray[1];
+  yield return carArray[2];
+  yield return carArray[3];
+  }
+```
+### Guard Clauses with Local Functions (New 7.0)
+- Calling a local sub-method to trigger the exception?
+- It’s not until `MoveNext()` is called that the code will execute and the exception is thrown.
+```c#
+public IEnumerator GetEnumerator()
+{
+  //This will not get thrown until MoveNext() is called
+  throw new Exception("This won't get called");
+  foreach (Car c in carArray)
+  {
+    yield return c;
+  }
+}
+
+// Update the method to this:
+
+public IEnumerator GetEnumerator()
+{
+  //This will get thrown immediately
+  throw new Exception("This will get called");
+  return ActualImplementation();
+  //this is the local function and the actual IEnumerator implementation
+  IEnumerator ActualImplementation()
+  {
+    foreach (Car c in carArray)
+    {
+      yield return c;
+    }
+  }
+}
+```
 ```c#
 
 ```
+```c#
 
+```
+```c#
+
+```
+```c#
+
+```
+```c#
+
+```
 ```c#
 
 ```
