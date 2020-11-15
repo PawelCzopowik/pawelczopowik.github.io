@@ -129,15 +129,34 @@ static void Main(string[] args)
 left off page 307
 
 ```c#
+// This interface informs the caller
+// that the object's items can be enumerated.
+public interface IEnumerable
+{
+  IEnumerator GetEnumerator();
+}
 
+// This interface allows the caller to
+// obtain a container's items.
+public interface IEnumerator
+{
+  bool MoveNext (); // Advance the internal position of the cursor.
+  object Current { get;} // Get the current item (read-only property).
+  void Reset (); // Reset the cursor before the first member.
+}
+```
+You can simply delegate the request to the System.Array as follows
+```c#
+// Return the array object's IEnumerator.
+public IEnumerator GetEnumerator()
+  => carArray.GetEnumerator();
 ```
 
+Or hide the functionality from object, but retain its function in the background (for-each).
 ```c#
-
-```
-
-```c#
-
+// Return the array object's IEnumerator.
+IEnumerator IEnumerable.GetEnumerator()
+=> return carArray.GetEnumerator();
 ```
 
 ```c#
