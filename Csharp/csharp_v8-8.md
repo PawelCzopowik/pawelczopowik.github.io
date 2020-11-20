@@ -188,6 +188,9 @@ public IEnumerator GetEnumerator()
 ### Guard Clauses with Local Functions (New 7.0)
 - Calling a local sub-method to trigger the exception?
 - It’s not until `MoveNext()` is called that the code will execute and the exception is thrown.
+- By moving the yield return into a local function.
+- With the update to the GetEnumerator method, the exception is thrown immediately instead of when MoveNext is called.
+
 ```c#
 public IEnumerator GetEnumerator()
 {
@@ -204,8 +207,10 @@ public IEnumerator GetEnumerator()
 public IEnumerator GetEnumerator()
 {
   //This will get thrown immediately
+  
   throw new Exception("This will get called");
   return ActualImplementation();
+  
   //this is the local function and the actual IEnumerator implementation
   IEnumerator ActualImplementation()
   {
@@ -216,7 +221,42 @@ public IEnumerator GetEnumerator()
   }
 }
 ```
+
+### Named Iterator
 ```c#
+public IEnumerable GetTheCars(bool returnReversed)
+{
+  //do some error checking here
+  return ActualImplementation();
+  
+  IEnumerable ActualImplementation()
+  {
+    // Return the items in reverse.
+    if (returnReversed)
+      {
+      for (int i = carArray.Length; i != 0; i--)
+      {
+        yield return carArray[i - 1];
+      }
+    }
+    else
+    {
+      // Return the items as placed in the array.
+      foreach (Car c in carArray)
+      {
+        yield return c;
+      }
+    }
+  }
+}
+
+
+// Then usage:
+// Get items using GetEnumerator().
+foreach (Car c in carLot) {...}
+
+// Get items (in reverse!) using named iterator.
+foreach (Car c in carLot.GetTheCars(true)) {...}
 
 ```
 ```c#
