@@ -259,17 +259,94 @@ foreach (Car c in carLot) {...}
 foreach (Car c in carLot.GetTheCars(true)) {...}
 
 ```
+
+## The ICloneable Interface
+- Shallow vs deep copy
+
 ```c#
+public interface ICloneable
+{
+  object Clone();
+}
+
+////// SHALLOW ///////
+// no ref types
+// Return a copy of the current object.
+public object Clone() => new Point(this.X, this.Y);
+
+// SIMPLIFIED by using existing method...
+// Copy each field of the Point member by member.
+public object Clone() => this.MemberwiseClone();
+
+
+///// DEEP /////////
+public object Clone()
+{
+  // First get a shallow copy.
+  Point newPoint = (Point)this.MemberwiseClone();
+  
+  // Then fill in the gaps.
+  PointDescription currentDesc = new PointDescription();
+  currentDesc.PetName = this.desc.PetName;
+  newPoint.desc = currentDesc;
+  return newPoint;
+}
 
 ```
+## The IComparable Interface
+- allows sorting
+- The generic version of this interface (IComparable<T>) provides a more type-safe manner to handle
+comparisons between objects.
+- Implementing this you just choose what to compare, and return -1, 0, 1 (this instance before/same/after).
+- Can shortcut to SystemInt32 if using such objects.
+
 ```c#
+// This interface allows an object to specify its
+// relationship between other like objects.
+public interface IComparable
+{
+  int CompareTo(object o);
+}
 
 ```
-```c#
 
+### Specifying Multiple Sort Orders with IComparer
+```c#
+// This helper class is used to sort an array of Cars by pet name.
+public class PetNameComparer : IComparer
+{
+  // Test the pet name of each object.
+  int IComparer.Compare(object o1, object o2)
+  {
+    if (o1 is Car t1 && o2 is Car t2)
+    {
+      return string.Compare(t1.PetName, t2.PetName,
+      StringComparison.OrdinalIgnoreCase);
+    }
+    else
+    {
+      throw new ArgumentException("Parameter is not a Car!");
+    }
+  }
+}
 ```
-```c#
 
+### Custom Properties and Custom Sort Types
+
+
+```c#
+// We now support a custom property to return
+// the correct IComparer interface.
+public class Car : IComparable
+{
+  ...
+  // Property to return the PetNameComparer.
+  public static IComparer SortByPetName
+    => (IComparer)new PetNameComparer();
+}
+
+// Sorting by pet name made a bit cleaner.
+Array.Sort(myAutos, Car.SortByPetName);
 ```
 ```c#
 
