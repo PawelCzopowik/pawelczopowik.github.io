@@ -1,4 +1,4 @@
-[<< Previous Chapter](Csharp_v8.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-5.md)
+[<< Previous Chapter](csharp_v8.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-5.md)
 
 # CHAPTER 4 Core C# Programming Constructs, Pt 2
 
@@ -329,4 +329,4 @@ struct Point
 tbfinished... zzzzzzz
 
 
-[<< Previous Chapter](Csharp_v8.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-5.md)
+[<< Previous Chapter](csharp_v8.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-5.md)

@@ -1,4 +1,4 @@
-[Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-4.md)
+[Content Table](../csharp) | [Next Chapter >>](csharp_v8-4.md)
 
 # CHAPTER 1 Introducing .NET Core
 
@@ -244,4 +244,4 @@ return colorBand switch
  };
 ```
 
-[Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-4.md)
+[Content Table](../csharp) | [Next Chapter >>](csharp_v8-4.md)

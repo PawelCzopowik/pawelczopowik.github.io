@@ -1,4 +1,4 @@
-[<< Previous Chapter](Csharp_v8-7.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-9.md)
+[<< Previous Chapter](csharp_v8-7.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-9.md)
 
 CHAPTER 8 Working with Interfaces
 ===
@@ -234,4 +234,4 @@ public IEnumerator GetEnumerator()
 ```c#
 
 ```
-[<< Previous Chapter](Csharp_v8-7.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-9.md)
+[<< Previous Chapter](csharp_v8-7.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-9.md)

@@ -1,4 +1,4 @@
-[<< Previous Chapter](Csharp_v8-5.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-7.md)
+[<< Previous Chapter](csharp_v8-5.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-7.md)
 
 # CHAPTER 6 Understanding Inheritance and Polymorphism
 
@@ -155,4 +155,4 @@ else if (emp is var _)
 }
 ```
 
-[<< Previous Chapter](Csharp_v8-5.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-7.md)
+[<< Previous Chapter](csharp_v8-5.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-7.md)

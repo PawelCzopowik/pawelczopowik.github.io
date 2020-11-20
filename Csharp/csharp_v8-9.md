@@ -1,4 +1,4 @@
-[<< Previous Chapter](Csharp_v8-8.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-10.md)
+[<< Previous Chapter](csharp_v8-8.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-10.md)
 
 
 CHAPTER x
@@ -32,5 +32,5 @@ CHAPTER x
 ```c#
 
 ```
-[<< Previous Chapter](Csharp_v8-8.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-10.md)
+[<< Previous Chapter](csharp_v8-8.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-10.md)
 

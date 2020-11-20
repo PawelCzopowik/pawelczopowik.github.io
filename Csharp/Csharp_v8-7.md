@@ -1,4 +1,4 @@
-[<< Previous Chapter](Csharp_v8-6.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-8.md)
+[<< Previous Chapter](csharp_v8-6.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-8.md)
 
 CHAPTER 7 Understanding Structured Exception Handling
 ===
@@ -89,4 +89,4 @@ catch (CarIsDeadException e) when (e.ErrorTimeStamp.DayOfWeek != DayOfWeek.Frida
 ```c#
 
 ```
-[<< Previous Chapter](Csharp_v8-6.md) | [Content Table](../Csharp) | [Next Chapter >>](Csharp_v8-8.md)
+[<< Previous Chapter](csharp_v8-6.md) | [Content Table](../csharp) | [Next Chapter >>](csharp_v8-8.md)
