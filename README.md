@@ -1,3 +1,3 @@
-- [C#](https://pawelczopowik.github.io/Csharp)
+- [C#](https://pawelczopowik.github.io/csharp)
 - [Web and JavaScript](https://pawelczopowik.github.io/JSandWeb)
 - [Recipes](https://pawelczopowik.github.io/recipes)
