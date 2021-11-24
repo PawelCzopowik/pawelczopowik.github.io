@@ -1,6 +1,4 @@
 [Recipes](../recipes)
-[Recipes](../recipes/)
-[Recipes](recipes)
 
 # Overview
 Mizeria is a Polish cucumber, vinegar, and sour cream salad, which commonly accompanies a meat-and-potatoes dish. It is also a "surówka" or a class of salads made of fresh vegetables and fruit, also typically a side dish to dinner. 
