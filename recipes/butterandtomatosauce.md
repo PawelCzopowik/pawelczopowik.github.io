@@ -6,7 +6,7 @@ They KEY to this recipe is SAN MARZANO tomatoes! Top quality butter and real par
 
 This is a simple yet delicious recipe and its simplicity is what makes it so amazing. One can add some heavy cream (or similar) and pepper flakes for an arrabiatta style.
 
-Adding the cheese at the end cuts down on the acidity, but the cheese can be added to the pasta as its tossed with the sauce. I think adding it to the sauce is what makes it so wonderful (but some prefer the acidity)
+Adding the cheese at the end cuts down on the acidity, but the cheese can be added to the pasta as its tossed with the sauce. I think adding it to the sauce is what makes it so wonderful (but some prefer the acidity). I tried chopping the tomatoes finely or in a food processor but the texture and taste is MUCH better when chopped coarsly.
 
 # Ingredients
 
