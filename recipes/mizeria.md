@@ -12,7 +12,7 @@ The sourcream will become runnier as it mixes with the water the cucumbers relea
 
 I prefer waiting for the salt and cucumbers to react (no squeezing) where the slices get somewhat limp yet still crunchy, but some like to serve the cucumbers right away for the crunchiest slices.
 
-I think its best if the salad gets time to blend flavors, so either rest as you're making or rest after making for about an hour.
+I think its best if the salad gets time to blend flavors, so either rest as you're making or rest after making for about an hour. Best yet, make the dressing DAYS ahead of time!
 
 # Ingredients
 1. 3 cucumbers (roughly 850 g/750 g unpeeled/peeled)
@@ -31,7 +31,7 @@ No exceptional cases.
 
 ### Dressing
 1. Mix sour cream, garlic, vinegar, lemon juice
-1. Let stand for 30-60 m, this is necessary for the garlic to develop flavor in the cream.
+1. Let stand for 30-60 m, this is necessary for the garlic to develop flavor in the cream. Better yet, make the dressing days ahead of time!
 
 ### Cucumbers
 1. Slice cucumbers (peeling is up to your preference)
