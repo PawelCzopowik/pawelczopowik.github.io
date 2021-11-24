@@ -21,6 +21,7 @@ Adding the cheese at the end cuts down on the acidity, but the cheese can be add
 1. Simmer for 30-60 min
 2. Discard the cooked onions
 3. Add grated cheese
+4. Salt to taste
 
 This can be refrigerated for 3-4 days or frozen.
 
