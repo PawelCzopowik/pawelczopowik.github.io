@@ -2,8 +2,8 @@
 
 Here's a list of recipes.
    
-[Bread](bread.md)
-[Pasta](pasta.md)
+[Bread](bread.md)  
+[Pasta](pasta.md)  
 [Mizeria](mizeria.md)  
 [Butter and Tomato pasta sauce (San Marzano)](butterandtomatosauce.md)  
 [Red Coleslaw (NA)](redcoleslaw.md)  
