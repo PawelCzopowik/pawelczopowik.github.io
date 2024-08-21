@@ -30,7 +30,7 @@
 ## Cooking
 1. Using the 2 Tbs of butter, toast the rice in a skillet until golden brown.
 2. Stir the chicken stock again to ensure the herbs are not settled.
-3. Ensure your stock is **hot** to avoid warping the pan.
+3. Ensure your broth is **hot** to avoid warping the pan.
 4. Pour the stock into the skillet, then mix well.
 5. Cover, reduce heat to lowest, and wait about 10-20 minutes until fully absorbed.
 6. Once done, mix rice well as the herbs tend to settle.
