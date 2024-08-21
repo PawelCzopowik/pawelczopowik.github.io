@@ -9,3 +9,4 @@ Here's a list of recipes.
 [Red Coleslaw (NA)](redcoleslaw.md)  
 [Scrambled Eggs (NA)](scrambledeggs.md)  
 [Grilled cheese (NA)](grilledcheese.md)  
+[Halal rice](halalrice.md)
